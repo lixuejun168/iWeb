@@ -1,6 +1,6 @@
 stage('pull source code') {
     node('master'){
-        git([url: 'git@github.com:princeqjzh/iWeb.git', branch: 'master'])
+        git([url: 'https://github.com/lixuejun168/iWeb.git', branch: 'master'])
     }
 }
 
